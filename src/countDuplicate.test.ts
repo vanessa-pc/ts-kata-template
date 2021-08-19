@@ -1,5 +1,6 @@
-import sum from "./skeleton";
+import countDuplicates from "./countDuplicate";
 
-test("sum adds two numbers", () => {
-  expect(sum(4, 3)).toBe(7);
+test("count duplicates in string", () => {
+  expect(countDuplicates("abcde")).toBe(0);
+  expect(countDuplicates("aabBcde")).toBe(2);
 });
